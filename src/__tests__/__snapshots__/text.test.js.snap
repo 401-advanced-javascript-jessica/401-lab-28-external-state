@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text /> renders properly 1`] = `
+<div>
+  <div>
+    Name: 
+     
+  </div>
+  <p>
+    # of Updates: 
+     
+  </p>
+</div>
+`;
