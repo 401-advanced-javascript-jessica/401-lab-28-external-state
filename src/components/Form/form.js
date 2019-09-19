@@ -1,29 +1,29 @@
 import React from 'react';
-import Text from "../Text/text";
+import Text from '../Text/text';
 
 class Form extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: this.props.name,
-        };
-    }
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: this.props.name,
+    };
+  }
 
-    handleChange = event => {
-        this.setState({
-            name: event.target.value,
-        }, () => {
+    handleChange = (event) => {
+      this.setState({
+        name: event.target.value,
+      }, () => {
 
-        })
+      });
     };
 
-    handleSubmit = event => {
-        event.preventDefault();
-        this.props.handleNameChange(this.state.name)
+    handleSubmit = (event) => {
+      event.preventDefault();
+      this.props.handleNameChange(this.state.name);
     };
 
     render() {
-        return (
+      return (
             <>
                 <form onSubmit={this.handleSubmit}>
                     <input
@@ -34,7 +34,7 @@ class Form extends React.Component {
                     <button type="submit"> Update | {this.props.count}</button>
                 </form>
             </>
-        )
+      );
     }
 }
 
