@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders properly 1`] = `
+Array [
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      type="text"
+      value="Jessica"
+    />
+    <button
+      type="submit"
+    >
+       Update | 
+      0
+    </button>
+  </form>,
+  <div>
+    <div>
+      Name: 
+      Jessica
+       
+    </div>
+    <p>
+      # of Updates: 
+      0
+       
+    </p>
+  </div>,
+]
+`;

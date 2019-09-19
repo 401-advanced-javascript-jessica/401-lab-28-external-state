@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+
+App{
+  background-color: #FEFCFD;
+}
+
+Form {
+
+  text-align: center;
+}
+
+input, button {
+  width: 20%;
+  margin: 1em;
+  padding: .5em;
+  display: inline-block;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  font-family: 'Special Elite', cursive;
+  background-color: #5D5D81;
+  display: block;
+  margin: auto;
+  color: #FEFCFD;
+}
+
+Text {
+  margin-top: 2em;
+}
+
+div {
+  text-align: center;
+  margin: 1em;
+  font-family: 'Manjari', sans-serif;
+}
